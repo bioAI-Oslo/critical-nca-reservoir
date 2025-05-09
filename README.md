@@ -12,4 +12,15 @@ Dependencies used:
 * powerlaw 1.5
 * EvoDynamic (commit 83a15c8bb18ecb7da8cbc83ce6092d477aeae459)
 
+NCA evolution towards criticality:
+* train_nca.py
+* test_nca.py
+
+5-bit memory task:
+* ReCA_X-bit_memory_NCA.py (Ours - use checkpoint in the folder)
+* ReCA_X-bit_memory.py (Original)
+
+MNIST classification:
+* reservoir_mnist_make_dataset.py: Make dataset modified by NCA
+* reservoir_mnist.py: Train and test of the reservoir (NCA)
 
